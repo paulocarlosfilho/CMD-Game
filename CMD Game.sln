@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMD Game", "CMD Game\CMD Game.csproj", "{F7076981-AE2F-47E7-88B8-807785979983}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7076981-AE2F-47E7-88B8-807785979983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7076981-AE2F-47E7-88B8-807785979983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7076981-AE2F-47E7-88B8-807785979983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7076981-AE2F-47E7-88B8-807785979983}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75A6C2BB-2ADF-46BB-99F8-7FD066C21860}
+	EndGlobalSection
+EndGlobal
