@@ -8,7 +8,7 @@ namespace CMD_Game
 {
     public class Grid
     {
-        int[,] grid = new int[20, 20];
+        string[,] grid = new string[20, 20];
 
         public void Preencher()
         {
@@ -16,7 +16,7 @@ namespace CMD_Game
             {
                 for (int j = 0; j < 20; j++)
                 {
-                   Console.Write($"{grid[i,j]} ");
+                   Console.Write($"O ");
                 }
                 Console.WriteLine();
             }

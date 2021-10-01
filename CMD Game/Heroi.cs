@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace CMD_Game
 {
-    class Heroi
+    public class Heroi
     {
-        public void Aparecerh()
-        {
+        public string Nome { get; set; }
+        public int Vida { get; set; }
+        public int Score { get; set; }
+        public int Damage { get; set; }
 
+        public void AparecerHeroi()
+        {
+            Console.WriteLine("=========================================");
+            Console.WriteLine($"{Nome} HP: {Vida} {Nome} Demage: {Damage} {Nome} Score: {Score}");
+            Console.WriteLine("=========================================");
         }
     }
 }
