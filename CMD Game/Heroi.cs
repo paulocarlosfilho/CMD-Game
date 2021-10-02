@@ -19,5 +19,10 @@ namespace CMD_Game
             Console.WriteLine($"{Nome} HP: {Vida} {Nome} Demage: {Damage} {Nome} Score: {Score}");
             Console.WriteLine("=========================================");
         }
+
+        public void mover()
+        {
+
+        }
     }
 }
