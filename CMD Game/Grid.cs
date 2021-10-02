@@ -59,7 +59,6 @@ namespace CMD_Game
             Console.WriteLine("========================================");
         }
 
-        Option option = new Option();
         public void Escolhar()
             {
                 string comando = Console.ReadLine().ToUpper();

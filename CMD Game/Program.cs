@@ -11,13 +11,15 @@ namespace CMD_Game
         {
             Console.Title = nomeDoJogo;
 
-            //Iniciar Heroi
+            //----------------------------------------------
+            //Iniciar HeroiD
             Heroi heroi = new Heroi();
             heroi.Nome = "Hero";
             heroi.Damage = 1;
             heroi.Score = 0;
             heroi.Vida = 25;
             heroi.AparecerHeroi();
+
 
             //----------------------------------------------
 
@@ -27,7 +29,34 @@ namespace CMD_Game
 
             //----------------------------------------------
 
-            Option option = new Option();
+            // Movimentação do Heroi
+            while (true)
+            {
+                var up = Convert.ToString(Console.ReadKey());
+
+                if (up == "w")
+                {
+                 
+                }
+                else if (up == "s")
+                {
+
+                }
+                else if (up == "a")
+                {
+
+                }
+                else if (up == "d")
+                {
+
+                }
+                else
+                {
+                    return;
+                }
+
+            //----------------------------------------------
+                Option option = new Option();
             option.Escolhar();
 
             //-----------------------------------------------
