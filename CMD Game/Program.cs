@@ -2,7 +2,7 @@
 
 namespace CMD_Game
 {
-    
+
     class Program
     {
         static string nomeDoJogo = "CDM Game";
@@ -24,7 +24,7 @@ namespace CMD_Game
             //----------------------------------------------
 
             //Iniciar grid
-            Grid grid = new Grid();           
+            Grid grid = new Grid();
             grid.Preencher();
 
             //----------------------------------------------
@@ -36,7 +36,7 @@ namespace CMD_Game
 
                 if (up == "w")
                 {
-                 
+
                 }
                 else if (up == "s")
                 {
@@ -55,15 +55,16 @@ namespace CMD_Game
                     return;
                 }
 
-            //----------------------------------------------
+                //----------------------------------------------
                 Option option = new Option();
-            option.Escolhar();
+                option.Escolhar();
 
-            //-----------------------------------------------
-            
-            
+                //-----------------------------------------------
 
-            
+
+
+
+            }
         }
     }
 }
