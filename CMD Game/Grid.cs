@@ -39,10 +39,12 @@ namespace CMD_Game
         static string destino = "D";
         static int destinoLinha = 19;
         static int destinoColuna = 19;
+        static string boss = "B";
+
 
         public void Preencher()
         {
-
+            grid[17, 14] = boss;
             grid[0, 0] = heroi;
             grid[19, 19] = destino;
 
